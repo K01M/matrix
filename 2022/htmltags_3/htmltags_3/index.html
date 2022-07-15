@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Знакомство с HTML тегами. Часть #3 (формы)</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <input type="text" name="username" value="">
+        <input type="tel" name="userphone" value="">
+        <input type="password" name="userpassword" value="">
+        <div>
+            <p>
+                <input type="radio" name="beer" value="lagger">светлое пиво
+            </p>
+            <p>
+                <input checked type="radio" name="beer" value="dark">тёмное пиво
+            </p>
+        </div>
+        <br>
+        <div>
+            <p>
+                <input checked type="radio" name="beer2" value="lagger">светлое пиво
+            </p>
+            <p>
+                <input type="radio" name="beer2" value="dark">тёмное пиво
+            </p>
+        </div>
+        <div>
+            <p><input type="checkbox" name="car" value="yes">Наличие авто</p>
+            <p><input checked type="checkbox" name="car2" value="yes">Наличие авто2</p>
+            <p><input type="checkbox" name="car3" value="yes">Наличие авто3</p>
+            <p><input type="checkbox" name="car4" value="yes">Наличие авто4</p>
+        </div>
+        <div>
+            <input type="file" name="userphoto">
+        </div>
+        <div>
+            <textarea name="text" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <select name="color">
+                <option value="red">Красный</option>
+                <option selected value="green">Зелёный</option>
+                <option value="blue">Синий</option>
+                <option value="black">Черный</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Отправить</button>
+        </div>
+        <div>
+            <button type="reset">Сбросить</button>
+        </div>
+    </form>
+</body>
+
+</html>
